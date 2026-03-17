@@ -4,93 +4,128 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Website</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
+
+  <body class="bg-gray-100">
     <main>
-      <section class="section">
+      <section class="recommandations-section text-center py-16 px-4">
+        
         <!-- Section Title -->
-        <h2>Recommendations</h2>
+        <h2 class="text-3xl font-semibold mb-3">Recommendations</h2>
 
         <!-- Paragraph -->
-        <p>
+        <p class="text-gray-500 max-w-xl mx-auto mb-12 text-sm">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequat duis enim velit mollit. lorem ipsum
         </p>
 
         <!-- Cards Wrapper -->
-        <div class="cards">
+        <div class="cards flex flex-wrap justify-center gap-6">
+          
           <!-- Card 1 -->
-          <div class="card">
+          <div class="card bg-white w-72 p-6 rounded-lg shadow-sm text-left">
+            
             <!-- Star rating -->
-            <div>
-              <img src="" />
+            <div class="flex gap-1 mb-3">
+              <img src="./images/recommandations/Star.png" class="w-4 h-4" />
+              <img src="./images/recommandations/Star.png" class="w-4 h-4" />
+              <img src="./images/recommandations/Star.png" class="w-4 h-4" />
+              <img src="./images/recommandations/Star.png" class="w-4 h-4" />
+              <img src="./images/recommandations/Star.png" class="w-4 h-4" />
             </div>
 
             <!-- Title -->
-            <h3>Great Quality!</h3>
+            <h3 class="font-semibold text-base mb-2">Great Quality!</h3>
 
             <!-- Description -->
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
+            <p class="text-gray-500 text-sm mb-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
               nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....
             </p>
 
             <!-- Profile -->
-            <div class="profile">
+            <div class="profile flex items-center gap-3">
               <img
                 src="./images/recommandations/Profile1.png"
+                class="w-10 h-10 rounded-full object-cover"
                 alt="Profile Image"
               />
               <div>
-                <h4>James Gouse</h4>
-                <span>Graphic Designer</span>
+                <h4 class="text-sm font-semibold">James Gouse</h4>
+                <span class="text-xs text-gray-400">Graphic Designer</span>
               </div>
             </div>
           </div>
 
           <!-- Card 2 -->
-          <div class="card">
-            <img src="" />
-            <h3>Amazing Work!</h3>
-            <p>
+          <div class="card bg-white w-72 p-6 rounded-lg shadow-sm text-left">
+            
+            <div class="flex gap-1 mb-3">
+              <img src="./images/recommandations/Star.png" class="w-4 h-4" />
+              <img src="./images/recommandations/Star.png" class="w-4 h-4" />
+              <img src="./images/recommandations/Star.png" class="w-4 h-4" />
+              <img src="./images/recommandations/Star.png" class="w-4 h-4" />
+              <img src="./images/recommandations/Star.png" class="w-4 h-4" />
+            </div>
+
+            <h3 class="font-semibold text-base mb-2">Amazing Work!</h3>
+
+            <p class="text-gray-500 text-sm mb-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
               nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....
             </p>
 
-            <div class="profile">
+            <div class="profile flex items-center gap-3">
               <img
                 src="./images/recommandations/Profile2.png"
+                class="w-10 h-10 rounded-full object-cover"
                 alt="Profile Image"
               />
               <div>
-                <h4>Tiana Philips</h4>
-                <span>Photographer</span>
+                <h4 class="text-sm font-semibold">Tiana Philips</h4>
+                <span class="text-xs text-gray-400">Photographer</span>
               </div>
             </div>
           </div>
 
           <!-- Card 3 -->
-          <div class="card">
-            <img src="" />
-            <h3>Great Quality!</h3>
-            <p>
+          <div class="card bg-white w-72 p-6 rounded-lg shadow-sm text-left">
+            
+            <div class="flex gap-1 mb-3">
+              <img src="./images/recommandations/Star.png" class="w-4 h-4" />
+              <img src="./images/recommandations/Star.png" class="w-4 h-4" />
+              <img src="./images/recommandations/Star.png" class="w-4 h-4" />
+              <img src="./images/recommandations/Star.png" class="w-4 h-4" />
+              <img src="./images/recommandations/Star.png" class="w-4 h-4" />
+            </div>
+
+            <h3 class="font-semibold text-base mb-2">Great Quality!</h3>
+
+            <p class="text-gray-500 text-sm mb-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
               nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....
             </p>
 
-            <div class="profile">
+            <div class="profile flex items-center gap-3">
               <img
                 src="./images/recommandations/Profile3.png"
+                class="w-10 h-10 rounded-full object-cover"
                 alt="Profile Image"
               />
               <div>
-                <h4>Talan Westervelt</h4>
-                <span>Business Man</span>
+                <h4 class="text-sm font-semibold">Talan Westervelt</h4>
+                <span class="text-xs text-gray-400">Business Man</span>
               </div>
             </div>
           </div>
+
         </div>
+
+        
+
       </section>
     </main>
   </body>
