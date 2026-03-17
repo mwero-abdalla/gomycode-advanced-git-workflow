@@ -4,18 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
     <!-- heros section -->
-    <section class="heros-section">
-      <!-- heading -->
-      <h1>I’m Rayan Adlrdard Front-end Developer</h1>
+    <section
+      class="hero-section flex p-5"
+      style="
+        background-image: url(&quot;./images/hero-images/background-image.png&quot;);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      "
+    
+    >
+      <!-- left column -->
+      <div class="w-1/2">
+        <h1 class="text-5xl">I’m Rayan Adlrdard <br> <span class="text-[#FFB400]"> Front-end</span> Developer</h1>
 
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, volutpat
-        feugiat placerat lobortis. Natoque rutrum semper sed suspendisse nunc
-        lectus.
-      </p>
+        <p class="text-xl">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, volutpat
+          feugiat placerat lobortis. Natoque rutrum semper sed suspendisse nunc
+          lectus.
+        </p>
+
+        <button type="button">Hire me</button>
+      </div>
+<!-- right column -->
+      <div class="image w-1/2">
+        <img src="./images/hero-images/hero-main-image.png" alt="main image" />
+      </div>
     </section>
   </body>
 </html>
