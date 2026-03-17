@@ -7,18 +7,39 @@
     <title>My Services</title>
   </head>
   <body>
+    <!-- ============================
+         Heading Section
+         Introduction to the services offered
+         Centered with spacing and max-width
+    ============================ -->
     <section class="heading text-center py-12 px-4 max-w-2xl mx-auto">
       <h2 class="text-3xl md:text-4xl font-bold mb-4">My Services</h2>
+
+      <!-- Section Description / Paragraph -->
       <p class="text-gray-600 leading-relaxed">
         Amet minim mollit non deserunt ullamco est sit aliqua dolor <br> do amet
         sint. Velit officia consequat duis enim velit mollit.<br> lorem ipsum
       </p>
     </section>
 
-    <!-- section  -->
+    <!-- ============================
+         Gallery Section
+         Showcasing skills or services in a responsive grid
+         Uses Tailwind grid classes for 1 / 2 / 3 columns
+         Gap and padding for spacing
+    ============================ -->
     <section
       class="gallery grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6"
     >
+         <!-- ============================
+           Individual Service Card
+           bg-white       → white background
+           shadow-md      → subtle shadow
+           rounded-lg     → rounded corners
+           p-4            → inner padding
+           text-center    → center text and image
+           hover:shadow-lg / hover:border → hover effects
+      ============================ -->
       <div class="images bg-white shadow-md rounded-lg p-4 text-center hover:shadow-lg hover:shadow-red-200 hover:border-4 hover:border-green-300">
         <img
           class="mx-auto mb-4 w-24 md:w-32 lg:w-56"
@@ -28,6 +49,7 @@
         />
       </div>
 
+      <!-- UI/UX Design Service Card -->
       <div class="images bg-white shadow-md rounded-lg p-4 text-center hover:shadow-lg hover:shadow-red-200 hover:border-4 hover:border-green-300">
         <img
           class="mx-auto mb-4 w-24 md:w-32 lg:w-56"
@@ -37,6 +59,7 @@
         />
       </div>
 
+       <!-- Sound Design Service Card -->
       <div class="images bg-white shadow-md rounded-lg p-4 text-center hover:shadow-lg hover:shadow-red-200 hover:border-4 hover:border-green-300">
         <img
           class="mx-auto mb-4 w-24 md:w-32 lg:w-56"
@@ -46,6 +69,7 @@
         />
       </div>
 
+       <!-- Game Design Service Card -->
       <div class="images bg-white shadow-md rounded-lg p-4 text-center hover:shadow-lg hover:shadow-red-200 hover:border-4 hover:border-green-300">
         <img
           class="mx-auto mb-4 w-24 md:w-32 lg:w-56"
@@ -55,6 +79,7 @@
         />
       </div>
 
+      <!-- Photography Service Card -->
       <div class="images bg-white shadow-md rounded-lg p-4 text-center hover:shadow-lg hover:shadow-red-200 hover:border-4 hover:border-green-300">
         <img
           class="mx-auto mb-4 w-24 md:w-32 lg:w-56"
@@ -64,6 +89,7 @@
         />
       </div>
 
+         <!-- Advertising Service Card -->
       <div class="images bg-white shadow-md rounded-lg p-4 text-center hover:shadow-lg hover:shadow-red-200 hover:border-4 hover:border-green-300">
         <img
           class="mx-auto mb-4 w-24 md:w-32 lg:w-56"
