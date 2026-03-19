@@ -1,18 +1,46 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
-    <title>Our Landing page</title>
-
-    <!-- tailwind cdn -->
-      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Hero</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body>
-    <!-- header here -->
-     <header>
-        <h1>Our Lovely Heading</h1>
-     </header>
-    <!-- main goes here -->
-    <!-- footer goes here -->
+  <body class="bg-white">
+    <!-- hero section -->
+    <section
+      class="flex flex-col md:flex-row items-center justify-between min-h-screen px-10 lg:px-20 bg-center bg-no-repeat bg-cover"
+      style="background-image: url('./images/hero-images/background-image.png');"
+    >
+      
+      <div class="w-full md:w-1/2 space-y-5">
+        <h1 class="text-4xl lg:text-6xl font-bold text-[#2B2B2B] leading-tight">
+          I’m Rayan Adlrdard <br> 
+          <span class="text-[#FFB400]">Front-end</span> Developer
+        </h1>
+
+        <p class="text-gray-600 text-lg max-w-lg">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, volutpat
+          feugiat placerat lobortis. Natoque rutrum semper sed suspendisse nunc
+          lectus.
+        </p>
+
+        <button 
+          type="button" 
+          class="bg-[#FFB400] text-[#2B2B2B] font-semibold py-3 px-8 rounded-lg hover:bg-[#e6a200] transition-all flex items-center gap-2 uppercase text-sm"
+        >
+          Hire me
+          <span>&rarr;</span>
+        </button>
+      </div>
+
+      <div class="w-full md:w-1/2 flex justify-center mt-10 md:mt-0">
+        <img 
+          src="./images/hero-images/hero-main-image.png" 
+          alt="main image" 
+          class="max-w-full h-auto object-contain"
+        />
+      </div>
+    </section>
   </body>
 </html>
