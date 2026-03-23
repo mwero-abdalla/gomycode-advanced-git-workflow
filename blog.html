@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Blog</title>
+  </head>
+
+  <body class="bg-gray-100">
+    <!-- Heading Section -->
+    <section class="text-center py-12 px-4 max-w-2xl mx-auto">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4">Blog</h2>
+
+      <!-- FIXED: wrong Tailwind class -->
+      <p class="text-gray-600 leading-relaxed">
+        Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua Dolor <br />
+        Do Amet Sint. Velit Officia Consequat Duis Enim Velit Mollit.<br />
+        Lorem Ipsum
+      </p>
+    </section>
+
+    <!-- Blog Cards -->
+    <section
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6 max-w-6xl mx-auto"
+    >
+      <!-- Card 1 -->
+      <div
+        class="bg-white shadow-md rounded-lg p-6 text-center hover:shadow-xl transition duration-300"
+      >
+        <img
+          class="mx-auto mb-4 w-32 lg:w-48"
+          src="/images/blog/Image number 1.png"
+          alt="How to make templates"
+        />
+        <h3 class="text-lg font-semibold mb-2">How To Make Web Templates</h3>
+        <p class="text-gray-600 text-sm mb-4">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit.
+        </p>
+
+        <!-- Better CTA instead of image -->
+        <button class="text-yellow-500 font-medium hover:underline">
+          Learn More →
+        </button>
+      </div>
+
+      <!-- Card 2 -->
+      <div
+        class="bg-white shadow-md rounded-lg p-6 text-center hover:shadow-xl transition duration-300"
+      >
+        <img
+          class="mx-auto mb-4 w-32 lg:w-48"
+          src="/images/blog/Iamge.png"
+          alt="Make business card"
+        />
+        <h3 class="text-lg font-semibold mb-2">How To Make Business Cards</h3>
+        <p class="text-gray-600 text-sm mb-4">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit.
+        </p>
+        <button class="text-yellow-500 font-medium hover:underline">
+          Learn More →
+        </button>
+      </div>
+
+      <!-- Card 3 -->
+      <div
+        class="bg-white shadow-md rounded-lg p-6 text-center hover:shadow-xl transition duration-300"
+      >
+        <img
+          class="mx-auto mb-4 w-32 lg:w-48"
+          src="/images/blog/Image(1).png"
+          alt="Design tips"
+        />
+        <h3 class="text-lg font-semibold mb-2">Design Tips for Beginners</h3>
+        <p class="text-gray-600 text-sm mb-4">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit.
+        </p>
+        <button class="text-yellow-500 font-medium hover:underline">
+          Learn More →
+        </button>
+      </div>
+    </section>
+  </body>
+</html>
