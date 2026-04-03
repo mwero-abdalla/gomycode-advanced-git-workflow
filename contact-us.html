@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Contact Us</title>
+  </head>
+  
+  <body>
+    <section class="px-10 md:px-16 lg:px-20 flex flex-col md:flex-row ">
+      <!-- Left Column: Form -->
+      <div class="bg-white p-8 rounded-lg shadow-md w-3/5">
+        <h2 class="text-3xl font-bold mb-6 text-gray-800">
+          Leave Us Your Info
+        </h2>
+
+        <form>
+          <div class="mb-4">
+            <input
+              type="text"
+              placeholder="Your Full Name ( Required )"
+              class="w-full px-4 py-3 bg-gray-100 rounded border-0 focus:ring-2 focus:ring-yellow-400"
+            />
+          </div>
+
+          <div class="mb-4">
+            <input
+              type="email"
+              placeholder="Your Email ( Required )"
+              class="w-full px-4 py-3 bg-gray-100 rounded border-0 focus:ring-2 focus:ring-yellow-400"
+            />
+          </div>
+
+          <div class="mb-4">
+            <input
+              type="text"
+              placeholder="Subject"
+              class="w-full px-4 py-3 bg-gray-100 rounded border-0 focus:ring-2 focus:ring-yellow-400"
+            />
+          </div>
+
+          <div class="mb-6">
+            <textarea
+              placeholder="Your Message"
+              rows="5"
+              class="w-full px-4 py-3 bg-gray-100 rounded border-0 focus:ring-2 focus:ring-yellow-400"
+            ></textarea>
+          </div>
+
+          <button
+            type="submit"
+            class="bg-yellow-400 text-gray-900 font-semibold px-8 py-3 rounded hover:bg-yellow-500 transition"
+          >
+            SEND MESSAGE
+          </button>
+        </form>
+      </div>
+
+      <!-- Right Column: Contact Info -->
+      <div class="space-y-6 w-2/5">
+        <h2 class="text-3xl font-bold mb-6 text-gray-800">
+          Contact Information
+        </h2>
+
+        <!-- Box 1: Location -->
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <div class="flex items-center justify-center mb-4">
+            <!-- Yellow circle icon placeholder -->
+            <div
+              class="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center"
+            >
+              <span class="text-2xl">📍</span>
+            </div>
+          </div>
+          <div class="space-y-2 text-sm">
+            <div class="flex justify-between">
+              <span class="text-gray-600">Country:</span>
+              <span class="text-gray-800">Bangladesh</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-gray-600">City:</span>
+              <span class="text-gray-800">Dhaka</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-gray-600">Street:</span>
+              <span class="text-gray-800">35 Vhatara, Badda</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Box 2: Contact -->
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <div class="flex items-center justify-center mb-4">
+            <div
+              class="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center"
+            >
+              <span class="text-2xl">📧</span>
+            </div>
+          </div>
+          <div class="space-y-2 text-sm">
+            <div class="flex justify-between">
+              <span class="text-gray-600">Email:</span>
+              <span class="text-gray-800">Youremail@Gmail.Com</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-gray-600">Skype:</span>
+              <span class="text-gray-800">@Yourusername</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-gray-600">Telegram:</span>
+              <span class="text-gray-800">@Yourusername</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Box 3: Phone -->
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <div class="flex items-center justify-center mb-4">
+            <div
+              class="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center"
+            >
+              <span class="text-2xl">📞</span>
+            </div>
+          </div>
+          <div class="space-y-2 text-sm">
+            <div class="flex justify-between">
+              <span class="text-gray-600">Support Services:</span>
+              <span class="text-gray-800">15369</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-gray-600">Office:</span>
+              <span class="text-gray-800">+88 (021)356 587 235</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-gray-600">Personal:</span>
+              <span class="text-gray-800">+88 (021)356 587 235</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
