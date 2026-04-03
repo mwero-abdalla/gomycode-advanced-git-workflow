@@ -1,5 +1,5 @@
 (() => {
-    const pageSections = ['price-plans', 'my-services', 'recommendations'];
+    const pageSections = ['price-plans', 'my-services', 'recommendations', 'contact-us'];
 
     // Load all sections and render them in the order declared above.
     const loadSections = async () => {
