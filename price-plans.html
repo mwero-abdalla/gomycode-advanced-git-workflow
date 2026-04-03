@@ -8,171 +8,179 @@
   </head>
   <body>
     <!-- wrapper -->
-    <section class="main-wrapper px-8">
+    <section class="main-wrapper py-16 px-6 bg-gray-100 text-center">
       <!-- main title -->
-      <h2>Price Plans</h2>
+      <h2 class="text-3xl font-bold mb-4">Price Plans</h2>
       <!-- main description -->
-      <p>
+      <p class="text-gray-500 max-w-2xl mx-auto mb-12">
         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
         sint. Velit officia consequat duis enim velit mollit. lorem ipsum
       </p>
 
       <!-- price plans container(silver, gold, diamond) -->
-      <div class="price-plans-wrapper flex">
+      <div
+        class="price-plans-wrapper flex gap-8 flex-col md:flex-row justify-center items-stretch"
+      >
         <!-- silver plan -->
         <!-- silver plan container -->
-        <div class="silver-plan-wrapper w-1/3">
+        <div
+          class="silver-plan-wrapper w-1/3 flex-1 max-w-sm bg-white rounded-2xl shadow-lg p-8 text-center relative"
+        >
           <!-- description container section -->
           <div class="silver-plan-description">
             <!-- title -->
-            <h2 class="title">Silver</h2>
+            <h2 class="title text-xl font-semibold mb-2">Silver</h2>
             <!-- price -->
-            <p class="price">$0.00/hour</p>
+            <p class="price text-4xl font-bold mb-2">$0.00/hour</p>
             <!-- description -->
             <p>For most businesses that want to optimize web queries</p>
           </div>
           <!-- services section container -->
-          <div class="services">
-            <div class="flex">
+          <div class="services space-y-4">
+            <div class="flex items-center gap-3 py-1">
               <img src="/images/price-plans/tick.png" alt="" />
               <p>UI Design</p>
             </div>
-            <div class="flex">
+            <div class="flex items-center gap-3 py-1">
               <img src="/images/price-plans/tick.png" alt="" />
               <p>web development</p>
             </div>
-            <div class="flex">
+            <div class="flex items-center gap-3 py-1">
               <img src="/images/price-plans/x.png" alt="" />
               <p>logo design</p>
             </div>
-            <div class="flex">
+            <div class="flex items-center gap-3 py-1">
               <img src="/images/price-plans/x.png" alt="" />
               <p>seo optimization</p>
             </div>
-            <div class="flex">
+            <div class="flex items-center gap-3 py-1">
               <img src="/images/price-plans/x.png" alt="" />
               <p>wordPress integration</p>
             </div>
-            <div class="flex">
+            <div class="flex items-center gap-3 py-1">
               <img src="/images/price-plans/x.png" alt="" />
               <p>5 Websites</p>
             </div>
-            <div class="flex">
+            <div class="flex items-center gap-3 py-1">
               <img src="/images/price-plans/x.png" alt="" />
               <p>unlimited user</p>
             </div>
-            <div class="flex">
+            <div class="flex items-center gap-3 py-1">
               <img src="/images/price-plans/x.png" alt="" />
               <p>20 gB bandwith</p>
             </div>
           </div>
           <!-- button -->
           <div>
-            <button class="button">Order Now</button>
+            <button class="button mt-6 w-full py-3 rounded-full bg-gray-200 text-gray-700 font-semibold">Order Now</button>
           </div>
         </div>
 
         <!-- gold plan container -->
-        <div class="gold-plan-wrapper w-1/3">
+        <div
+          class="gold-plan-wrapper w-1/3 relative flex-1 max-w-sm bg-white rounded-2xl shadow-xl p-8 text-center border-2 border-yellow-500 scale-105"
+        >
           <!-- text section -->
           <div>
             <!-- description title -->
-            <h3>most popular</h3>
+            <h3 class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2bg-yellow-500 text-white text-sm px-4 py-1 rounded-full font-medium">most popular</h3>
             <!-- section title -->
-            <h4 class="title">gold</h4>
+            <h4 class="title text-xl font-semibold mb-2 text-gray-800">gold</h4>
             <!-- price -->
-            <p class="price">$50.00/hour</p>
+            <p class="price text-4xl font-bold mb-2">$50.00/hour</p>
             <!-- description -->
             <p>For most businesses that want to optimize web queries</p>
           </div>
           <!-- Gold plan services section -->
-          <div class="services">
-            <div class="flex">
+          <div class="services space-y-4">
+            <div class="flex items-center gap-3 py-1">
               <img src="/images/price-plans/tick.png" alt="" />
               <p>UI Design</p>
             </div>
-            <div class="flex">
+            <div class="flex items-center gap-3 py-1">
               <img src="/images/price-plans/tick.png" alt="" />
               <p>web development</p>
             </div>
-            <div class="flex">
+            <div class="flex items-center gap-3 py-1">
               <img src="/images/price-plans/tick.png" alt="" />
               <p>logo design</p>
             </div>
-            <div class="flex">
+            <div class="flex items-center gap-3 py-1">
               <img src="/images/price-plans/tick.png" alt="" />
               <p>seo optimization</p>
             </div>
-            <div class="flex">
+            <div class="flex items-center gap-3 py-1">
               <img src="/images/price-plans/x.png" alt="" />
               <p>wordPress integration</p>
             </div>
-            <div class="flex">
+            <div class="flex items-center gap-3 py-1">
               <img src="/images/price-plans/x.png" alt="" />
               <p>5 Websites</p>
             </div>
-            <div class="flex">
+            <div class="flex items-center gap-3 py-1">
               <img src="/images/price-plans/x.png" alt="" />
               <p>unlimited user</p>
             </div>
-            <div class="flex">
+            <div class="flex items-center gap-3 py-1">
               <img src="/images/price-plans/x.png" alt="" />
               <p>20 gB bandwith</p>
             </div>
           </div>
           <!-- button -->
-          <button class="button">Order Now</button>
+          <button class=" button mt-6 w-full py-3 rounded-full bg-yellow-500 text-white font-semibold shadow-md hover:bg-yellow-600">Order Now</button>
         </div>
 
         <!-- diamond plan -->
         <!-- description container section -->
-        <div class="diamond-plan-wrapper w-1/3">
+        <div
+          class="diamond-plan-wrapper w-1/3 flex-1 max-w-sm bg-white rounded-2xl shadow-lg p-8 text-center relative"
+        >
           <div>
             <!-- title -->
-            <h3 class="title">Diamond</h3>
+            <h3 class="title text-xl font-semibold mb-2">Diamond</h3>
             <!-- price -->
-            <p class="prices">$80.00/hour</p>
+            <p class="prices text-4xl font-bold mb-2">$80.00/hour</p>
             <!-- description -->
             <p>For most businesses that want to optimize web queries</p>
           </div>
           <!-- Diamond plan services -->
-          <div class="services">
-            <div class="flex">
+          <div class="services space-y-4">
+            <div class="flex items-center gap-3 py-1">
               <img src="/images/price-plans/tick.png" alt="" />
               <p>UI Design</p>
             </div>
-            <div class="flex">
+            <div class="flex items-center gap-3 py-1">
               <img src="/images/price-plans/tick.png" alt="" />
               <p>web development</p>
             </div>
-            <div class="flex">
+            <div class="flex items-center gap-3 py-1">
               <img src="/images/price-plans/tick.png" alt="" />
               <p>logo design</p>
             </div>
-            <div class="flex">
+            <div class="flex items-center gap-3 py-1">
               <img src="/images/price-plans/tick.png" alt="" />
               <p>seo optimization</p>
             </div>
-            <div class="flex">
+            <div class="flex items-center gap-3 py-1">
               <img src="/images/price-plans/tick.png" alt="" />
               <p>wordPress integration</p>
             </div>
-            <div class="flex">
+            <div class="flex items-center gap-3 py-1">
               <img src="/images/price-plans/tick.png" alt="" />
               <p>5 Websites</p>
             </div>
-            <div class="flex">
+            <div class="flex items-center gap-3 py-1">
               <img src="/images/price-plans/tick.png" alt="" />
               <p>unlimited user</p>
             </div>
-            <div class="flex">
+            <div class="flex items-center gap-3 py-1">
               <img src="/images/price-plans/tick.png" alt="" />
               <p>20 gB bandwith</p>
             </div>
           </div>
           <!-- button -->
           <div>
-            <button class="button">Order Now</button>
+            <button class="button mt-6 w-full py-3 rounded-full bg-gray-200 text-gray-700 font-semibold">Order Now</button>
           </div>
         </div>
       </div>
